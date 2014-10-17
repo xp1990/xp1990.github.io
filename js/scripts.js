@@ -72,7 +72,7 @@ google.maps.visualRefresh = true;
 var map;
 function initialize() {
 	var geocoder = new google.maps.Geocoder();
-	var address = $('#map-input').text(); /* change the map-input to your address */
+	var address = "16 Monthope Road, E1 5LS";    /*$('#map-input').text(); /* change the map-input to your address */
 	var mapOptions = {
     	zoom: 15,
     	mapTypeId: google.maps.MapTypeId.ROADMAP,
