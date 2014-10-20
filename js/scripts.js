@@ -9,7 +9,7 @@ $('#nav').affix({
 });	
 
 /* highlight the top nav as scrolling occurs */
-$('body').scrollspy({ target: '#nav' })
+$('body').scrollspy({ target: '#nav' });
 
 /* smooth scrolling for scroll to top */
 $('.scroll-top').click(function(){
